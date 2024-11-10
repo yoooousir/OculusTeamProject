@@ -385,6 +385,7 @@
 "Assets/Scripts/POKER/RankTracker.cs"
 "Assets/Scripts/POKER/VRCanvasPositioner.cs"
 "Assets/Scripts/SampleToSetting_ButtonSceneTransition.cs"
+"Assets/Scripts/SampleToTutorial.cs"
 "Assets/Scripts/TestBehaviour.cs"
 "Assets/Scripts/Utility/Combinatorics.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01.cs"

@@ -64,6 +64,7 @@
     <Compile Include="Assets\UIKits\Demo\ExampleScripts\MouseLook.cs" />
     <Compile Include="Assets\UIKits\Scripts\UI\ProgressBar\CircularProgressBar.cs" />
     <Compile Include="Assets\UIKits\Scripts\Effects\ImageHoverOutline.cs" />
+    <Compile Include="Assets\Scripts\SampleToTutorial.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventHandler.cs" />
     <Compile Include="Assets\UIKits\Demo\ExampleScripts\ExampleDynamicCardList.cs" />
     <Compile Include="Assets\UIKits\Scripts\UI\CardList\CardListManager.cs" />

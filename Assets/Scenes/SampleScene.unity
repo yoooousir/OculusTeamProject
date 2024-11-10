@@ -1810,6 +1810,50 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eadf451b6e2545e49aac7c4925da0248, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &1588441336
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1588441338}
+  - component: {fileID: 1588441337}
+  m_Layer: 0
+  m_Name: ClickToTutorial
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1588441337
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1588441336}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e64963711a0a98f44ba9b4862aac0087, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &1588441338
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1588441336}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.01848805, y: 1.4454502, z: 1.0017406}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1601651065
 GameObject:
   m_ObjectHideFlags: 0
@@ -2056,7 +2100,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1626659410}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1588441337}
+        m_TargetAssemblyTypeName: SampleToTutorial, Assembly-CSharp
+        m_MethodName: SceneChange
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1626659410
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2374,3 +2430,4 @@ SceneRoots:
   - {fileID: 924991720}
   - {fileID: 1139718568}
   - {fileID: 256896188}
+  - {fileID: 1588441338}
